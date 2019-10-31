@@ -37,7 +37,7 @@ group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
   gem 'annotate'
   gem 'pry-byebug'
-  gem 'faker', '>= 2.2.2'
+  gem 'faker', '2.2.2'
 end
 
 group :development do
