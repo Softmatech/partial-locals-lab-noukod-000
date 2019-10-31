@@ -3,3 +3,6 @@
   <%= text_field_tag :query, @ask %>
   <%= submit_tag "Search" %>
     <%end%>
+
+<% @students.each do |s| %>
+  <%= render partial: "student", locals: {student: s} %>
